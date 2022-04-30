@@ -8,7 +8,7 @@ mv -b artalk/.[^.]* ./
 rm -rf *~ 
 rm -rf artalk.tar.gz
 rm -rf artalk
-artalk-go gen artalk-go.example.yml ./artalk-go.yml
+./artalk-go gen artalk-go.example.yml ./artalk-go.yml
 #upgit
 curl -L  -o upgit https://github.com/pluveto/upgit/releases/download/v0.2.16/upgit_linux_amd64
 fi
