@@ -16,7 +16,7 @@ git clone https://github.com/chuyua/replit-artalk && mv -b replit-artalk/* ./ &&
 cache:
 type: "redis"# 支持 redis, memcache, builtin (自带缓存)
 expires: 30     # 缓存过期时间 (单位：分钟)
-warm_up: false  # 程序启动时预热缓存
+warm_up: true  # 程序启动时预热缓存
 server: "localhost:6379"      # 连接缓存服务器 (例如："localhost:6379")
 ```
 
