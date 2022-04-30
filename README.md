@@ -8,7 +8,7 @@ git clone https://github.com/chuyua/replit-artalk && mv -b replit-artalk/* ./ &&
 
 # 默认部署本地redis作为缓存服务器
 
-##配置redis 缓存
+# 配置redis 缓存
 
 参考以下**artalk-go.yml**配置文件修改以支持缓存
 
