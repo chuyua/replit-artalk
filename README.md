@@ -10,6 +10,10 @@ git clone https://github.com/chuyua/replit-artalk && mv -b replit-artalk/* ./ &&
 
 当加载完 Loading Nix environment... 后点击绿色 ▶ Run
 
+# 更新artalk
+
+开关run即可
+
 # 默认部署本地redis作为缓存服务器
 
 参考以下**artalk-go.yml**配置文件修改以支持本地高性能redis缓存数据库
