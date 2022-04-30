@@ -10,7 +10,7 @@ git clone https://github.com/chuyua/replit-artalk && mv -b replit-artalk/* ./ &&
 
 ## 配置redis 缓存
 
-参考以下**artalk-go.yml**配置文件修改以支持缓存
+参考以下**artalk-go.yml**配置文件修改以支持本地高性能redis缓存数据库
 
 ```
 cache:
