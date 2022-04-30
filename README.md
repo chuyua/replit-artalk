@@ -10,9 +10,9 @@ git clone https://github.com/chuyua/replit-artalk && mv -b replit-artalk/* ./ &&
 
 当加载完 Loading Nix environment... 后点击绿色 ▶ Run
 
-# 更新artalk
+# 更新artalk后端程序
 
-开关run即可
+开关run即可，程序自动更新。upgit应用不更新也可以用
 
 # 默认部署本地redis作为缓存服务器
 
