@@ -13,11 +13,12 @@ git clone https://github.com/chuyua/replit-artalk && mv -b replit-artalk/* ./ &&
 参考以下**artalk-go.yml**配置文件修改以支持本地高性能redis缓存数据库
 
 ```
+# 缓存
 cache:
-type: "redis"# 支持 redis, memcache, builtin (自带缓存)
-expires: 30     # 缓存过期时间 (单位：分钟)
-warm_up: true  # 程序启动时预热缓存
-server: "localhost:6379"      # 连接缓存服务器 (例如："localhost:6379")
+  type: "redis" # 支持 redis, memcache, builtin (自带缓存)
+  expires: 30     # 缓存过期时间 (单位：分钟)
+  warm_up: true # 程序启动时预热缓存
+  server: "localhost:6379"      # 连接缓存服务器 (例如："localhost:6379")
 ```
 
 # 默认下载upgit作为图床支持
