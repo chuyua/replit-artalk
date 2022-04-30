@@ -13,6 +13,7 @@ rm -rf replit-artalk
 ./artalk-go gen artalk-go.example.yml ./artalk-go.yml
 #upgit
 curl -L  -o upgit https://github.com/pluveto/upgit/releases/download/v0.2.16/upgit_linux_amd64
+curl -L  -o upgit config.toml https://raw.githubusercontent.com/pluveto/upgit/main/config.sample.zh-CN.toml
 chmod +x upgit
 fi
 redis-server ./redis.conf
