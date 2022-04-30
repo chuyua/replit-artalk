@@ -1,6 +1,6 @@
 # replit-artalk
 
-**Rplit教育版一键安装**
+**Rplit一键安装**
 
 将以下代码粘贴至Replit Shell后回车
 
