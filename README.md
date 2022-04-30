@@ -1,4 +1,4 @@
-# artalk-go后端 on Replit
+# artalkgo后端 on Replit
 
 **Rplit一键安装**
 
