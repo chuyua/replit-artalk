@@ -1,10 +1,12 @@
 # replit-artalk
 
-**一键安装**
+**Rplit教育版一键安装**
 
-```
+将以下代码粘贴至Replit Shell后回车
+`
 git clone https://github.com/chuyua/replit-artalk && mv -b replit-artalk/* ./ && mv -b replit-artalk/.[^.]* ./ && rm -rf *~ && rm -rf replit-artalk
-```
+`
+当加载完 Loading Nix environment... 后点击绿色 ▶ Run
 
 # 默认部署本地redis作为缓存服务器
 
