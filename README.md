@@ -22,7 +22,7 @@ server: "localhost:6379"      # 连接缓存服务器 (例如："localhost:6379"
 
 # 默认下载upgit作为图床支持
 
-参考以下**artalk-go.yml**配置文件修改以支持缓存
+参考以下**artalk-go.yml**配置文件修改以支持图床上传
 
 ```
 # 图片上传
